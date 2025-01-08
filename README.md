@@ -6,12 +6,12 @@
      const isPasswordMatched = await bcrypt.compare(passwordInputByUser, user.password);
 
 
-.........................................................................................................................................................................................................................
-........................................................................................................................................................................................................................
+..................................................................................................................................................................................................................
+..................................................................................................................................................................................................................
 
 **Authentication, JWT & Cookies**:
 JWT (JSON) web token is compact and URL-safe and can be transfered between clients/ parties safely. It is used in web applications for authentication and authorization. JWT consist of  3 parts: header.payload.signature
-  **Authentication Flow**:
+**Authentication Flow**:
 1.	Login: User login by providing credentials to the server.
 2.	Server Verify the credentials: If credentials are valid server creates a JWT token and sends it back to the user.
 3.	Token storage: Client stores the JWT (in cookies) for future request.
